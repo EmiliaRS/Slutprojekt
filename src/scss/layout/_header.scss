@@ -1,0 +1,11 @@
+.site-header {
+    display: grid;
+    grid-template-columns: var(--grid-container);
+    
+    &__inner {
+        grid-column: inner;
+        margin-top: 1.7rem;
+        margin-left: 7rem;
+    }
+
+}

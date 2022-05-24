@@ -1,0 +1,47 @@
+:root {
+
+    // Fonts
+    --font-sans: 'Libre Baskerville', serif;
+    --font-serif: 'Libre Baskerville', serif;
+
+    // Font Base & Scale
+    // Change here to change font-sizes
+    --font-base: 1rem;
+    --font-scale: 1.25;
+
+    --font-size-1: var(--font-base);
+    --font-size-2: calc( var(--font-size-1) * var(--font-scale) );
+    --font-size-3: calc( var(--font-size-2) * var(--font-scale) );
+    --font-size-4: calc( var(--font-size-3) * var(--font-scale) );
+    --font-size-5: calc( var(--font-size-4) * var(--font-scale) );
+    --font-size-6: calc( var(--font-size-5) * var(--font-scale) );
+ 
+    // Colors
+    --color-accent: #F5F5F5;
+    --color-blue: #5ECEEF;
+    --color-medium: #707070;
+    --color-hover: #08617c;
+
+    // Sections Gaps
+    --section-gap: 8rem;
+    --section-gap-inner: calc( var(--section-gap) * 0.75);
+    --section-gap-inner-small: calc(var(--section-gap) * 0.5);
+    
+    // Grid Gaps
+    --grid-gap: 3rem;
+
+    // Page settings
+    --page-width: 100%;
+    --page-padding: 30px;
+
+    // Content Settings
+    --content-width: 80rem;
+    --content-width-small: 40rem;
+
+    // Menu Settings
+    --menu-height: 100px;
+
+    // Grids
+    --grid-container: minmax( var(--page-padding), 1fr ) [inner-start] minmax(0, var(--page-width) ) [inner-end] minmax( var(--page-padding), 1fr);
+    --grid-content: repeat(12, 1fr);
+}
